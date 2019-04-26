@@ -1,0 +1,5 @@
+
+AVRASM ver. 2.2.7  C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\summazidi\summazidi\main.asm Wed Apr 24 19:47:15 2019
+
+[builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
+C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\summazidi\summazidi\main.asm(34): error: syntax error, unexpected '+', expecting ':'
