@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\Debug\29-04-15uno.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>29-04-15uno.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>29-04-15uno.map</FILE>
+  <FILE>29-04-15uno.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <NEGATIVO1><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm</FILE><LINE>65</LINE></NEGATIVO1>
+  <NEGATIVO2><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm</FILE><LINE>60</LINE></NEGATIVO2>
+  <ACA><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm</FILE><LINE>44</LINE></ACA>
+  <moco><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm</FILE><LINE>52</LINE></moco>
+  <FIN><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm</FILE><LINE>70</LINE></FIN>
+ </LABELS>
+</ASSEMBLER_INFO>
