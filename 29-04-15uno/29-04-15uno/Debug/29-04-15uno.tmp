@@ -22,10 +22,10 @@
   <FILE>29-04-15uno.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <NEGATIVO1><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm</FILE><LINE>65</LINE></NEGATIVO1>
-  <NEGATIVO2><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm</FILE><LINE>60</LINE></NEGATIVO2>
-  <ACA><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm</FILE><LINE>44</LINE></ACA>
-  <moco><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm</FILE><LINE>52</LINE></moco>
-  <FIN><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm</FILE><LINE>70</LINE></FIN>
+  <NEGATIVO1><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm</FILE><LINE>64</LINE></NEGATIVO1>
+  <NEGATIVO2><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm</FILE><LINE>69</LINE></NEGATIVO2>
+  <DIVISION><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm</FILE><LINE>45</LINE></DIVISION>
+  <RESULTADOS><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm</FILE><LINE>53</LINE></RESULTADOS>
+  <FIN><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm</FILE><LINE>75</LINE></FIN>
  </LABELS>
 </ASSEMBLER_INFO>

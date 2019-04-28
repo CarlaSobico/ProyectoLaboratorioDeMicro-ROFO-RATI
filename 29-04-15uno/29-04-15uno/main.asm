@@ -18,28 +18,29 @@
 .equ off=0
 .def regdividendo=r16
 .def regdivisor=r17
-.def aux=r18
-.def cociente=r19
-.def resto=r20
+.def cociente=r18
+.def resto=r19
+.def aux=r20
 .def dividendonegativo=r21
 .def divisornegativo=r22
+.def aux2=r23
 
 .cseg
-ldi regdividendo, dividendo
-ldi regdivisor,divisor
-ldi r19, off
-ldi dividendonegativo, off
-ldi divisornegativo, off
-;mov r18,r16
-;add r18,r17
-mov aux,regdividendo
-andi aux, (1<<SHIFT_SIGNO_8BITS)
-cpse aux, r19
-rcall NEGATIVO1
-mov aux,regdivisor
-andi aux, (1<<SHIFT_SIGNO_8BITS)
-cpse aux, r19
-rcall NEGATIVO2
+	ldi regdividendo, dividendo
+	ldi regdivisor,divisor
+	ldi aux2, off
+	ldi dividendonegativo, off
+	ldi divisornegativo, off
+	;mov r18,r16
+	;add r18,r17
+	mov aux,regdividendo
+	andi aux, (1<<SHIFT_SIGNO_8BITS)
+	cpse aux, aux2
+	rcall NEGATIVO1
+	mov aux,regdivisor
+	andi aux, (1<<SHIFT_SIGNO_8BITS)
+	cpse aux, aux2
+	rcall NEGATIVO2
 
 DIVISION:
 	inc cociente
@@ -54,7 +55,9 @@ RESULTADOS:
 	sub dividendonegativo, divisornegativo
 	Cpse dividendonegativo,aux
 	neg cociente
-	add resto, r17
+	cpse cociente, aux
+	BSET 6
+	add resto, regdivisor
 	jmp FIN
 
 	

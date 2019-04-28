@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.7  C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm Sun Apr 28 15:44:09 2019
+AVRASM ver. 2.2.7  C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm Sun Apr 28 16:42:37 2019
 
 
 EQU  SIGNATURE_000 0000001e
@@ -702,13 +702,14 @@ EQU  on           00000001
 EQU  off          00000000
 DEF  regdividendo r16
 DEF  regdivisor   r17
-DEF  aux          r18
-DEF  cociente     r19
-DEF  resto        r20
+DEF  cociente     r18
+DEF  resto        r19
+DEF  aux          r20
 DEF  dividendonegativo r21
 DEF  divisornegativo r22
-CSEG NEGATIVO1    0000001e
-CSEG NEGATIVO2    0000001b
-CSEG ACA          0000000d
-CSEG moco         00000014
-CSEG FIN          00000021
+DEF  aux2         r23
+CSEG NEGATIVO1    0000001d
+CSEG NEGATIVO2    00000020
+CSEG DIVISION     0000000d
+CSEG RESULTADOS   00000014
+CSEG FIN          00000023

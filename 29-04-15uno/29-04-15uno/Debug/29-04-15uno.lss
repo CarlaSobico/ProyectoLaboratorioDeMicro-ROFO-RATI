@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.7  C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm Sun Apr 28 15:44:09 2019
+AVRASM ver. 2.2.7  C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\29-04-15uno\29-04-15uno\main.asm Sun Apr 28 16:42:37 2019
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
@@ -988,12 +988,12 @@ AVRASM ver. 2.2.7  C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesado
                                  ; 29-04-15uno.asm
                                  ;
                                  ; Created: 27/4/2019 4:36:16 p. m.
-                                 ; Author : carli
+                                 ; Author : carlasobico
                                  ;
                                  
                                  
                                  ;Codificar a assembler para AVR una subrutina que, dados dos numeros de 8 bits
-                                 ;con signo en convenci[on complemento a 2 en los registros R16(dividendo) y R17 (divisor),
+                                 ;con signo en convencion complemento a 2 en los registros R16(dividendo) y R17 (divisor),
                                  ;devuelva el resultado de su division en R18 el cociente y en R19 el resto y el bit T (SREG.6)
                                  ;en uno si el divisor es cero
                                  
@@ -1004,57 +1004,62 @@ AVRASM ver. 2.2.7  C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesado
                                  .equ off=0
                                  .def regdividendo=r16
                                  .def regdivisor=r17
-                                 .def aux=r18
-                                 .def cociente=r19
-                                 .def resto=r20
+                                 .def cociente=r18
+                                 .def resto=r19
+                                 .def aux=r20
                                  .def dividendonegativo=r21
                                  .def divisornegativo=r22
+                                 .def aux2=r23
                                  
                                  .cseg
-000000 ec09                      ldi regdividendo, dividendo
-000001 ef16                      ldi regdivisor,divisor
-000002 e030                      ldi r19, off
-000003 e050                      ldi dividendonegativo, off
-000004 e060                      ldi divisornegativo, off
-                                 ;mov r18,r16
-                                 ;add r18,r17
-000005 2f20                      mov aux,regdividendo
-000006 7820                      andi aux, (1<<SHIFT_SIGNO_8BITS)
-000007 1323                      cpse aux, r19
-000008 d015                      rcall NEGATIVO1
-000009 2f21                      mov aux,regdivisor
-00000a 7820                      andi aux, (1<<SHIFT_SIGNO_8BITS)
-00000b 1323                      cpse aux, r19
-00000c d00e                      rcall NEGATIVO2
+000000 ec09                      	ldi regdividendo, dividendo
+000001 ef16                      	ldi regdivisor,divisor
+000002 e070                      	ldi aux2, off
+000003 e050                      	ldi dividendonegativo, off
+000004 e060                      	ldi divisornegativo, off
+                                 	;mov r18,r16
+                                 	;add r18,r17
+000005 2f40                      	mov aux,regdividendo
+000006 7840                      	andi aux, (1<<SHIFT_SIGNO_8BITS)
+000007 1347                      	cpse aux, aux2
+000008 d014                      	rcall NEGATIVO1
+000009 2f41                      	mov aux,regdivisor
+00000a 7840                      	andi aux, (1<<SHIFT_SIGNO_8BITS)
+00000b 1347                      	cpse aux, aux2
+00000c d013                      	rcall NEGATIVO2
                                  
-                                 ACA:
-00000d 9533                      	inc cociente
+                                 DIVISION:
+00000d 9523                      	inc cociente
 00000e 1b01                      	sub regdividendo, regdivisor
-00000f 2f40                      	mov resto, regdividendo
-000010 1b41                      	sub resto, regdivisor
-000011 f012                      	BRMI moco
-000012 940c 000d                 	jmp ACA
+00000f 2f30                      	mov resto, regdividendo
+000010 1b31                      	sub resto, regdivisor
+000011 f012                      	BRMI RESULTADOS
+000012 940c 000d                 	jmp DIVISION
                                  
-                                 moco:
-000014 e020                      	ldi aux,off
+                                 RESULTADOS:
+000014 e040                      	ldi aux,off
 000015 1b56                      	sub dividendonegativo, divisornegativo
-000016 1352                      	Cpse dividendonegativo,aux
-000017 9531                      	neg cociente
-000018 0f41                      	add resto, r17
-000019 940c 0021                 	jmp FIN
+000016 1354                      	Cpse dividendonegativo,aux
+000017 9521                      	neg cociente
+000018 1324                      	cpse cociente, aux
+000019 9468                      	BSET 6
+00001a 0f31                      	add resto, regdivisor
+00001b 940c 0023                 	jmp FIN
+                                 
+                                 	
+                                 NEGATIVO1:
+00001d 9501                      	neg regdividendo
+00001e e051                      	ldi dividendonegativo, on
+00001f 9508                      	ret
                                  
                                  NEGATIVO2:
-00001b 9511                      	neg regdivisor
-00001c e061                      	ldi divisornegativo, on
-00001d 9508                      	ret
+000020 9511                      	neg regdivisor
+000021 e061                      	ldi divisornegativo, on
+000022 9508                      	ret
                                  
-                                 NEGATIVO1:
-00001e 9501                      	neg regdividendo
-00001f e051                      	ldi dividendonegativo, on
-000020 9508                      	ret
                                  	
                                  FIN:
-000021 940c 0021                 	jmp FIN
+000023 940c 0023                 	jmp FIN
                                  	
                                  
                                  
@@ -1078,10 +1083,10 @@ counted separately from r26..r31 here.
 "ATmega328P" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:   5 r17:   6 r18:   8 r19:   5 r20:   3 
-r21:   4 r22:   3 r23:   0 r24:   0 r25:   0 r26:   0 r27:   0 r28:   0 
+r13:   0 r14:   0 r15:   0 r16:   5 r17:   6 r18:   3 r19:   3 r20:   9 
+r21:   4 r22:   3 r23:   3 r24:   0 r25:   0 r26:   0 r27:   0 r28:   0 
 r29:   0 r30:   0 r31:   0 
-Registers used: 7 out of 35 (20.0%)
+Registers used: 8 out of 35 (22.9%)
 
 "ATmega328P" instruction use summary:
 .lds  :   0 .sts  :   0 adc   :   0 add   :   1 adiw  :   0 and   :   0 
@@ -1089,10 +1094,10 @@ andi  :   2 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0
 brcc  :   0 brcs  :   0 break :   0 breq  :   0 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   1 
 brne  :   0 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
-brvs  :   0 bset  :   0 bst   :   0 call  :   0 cbi   :   0 cbr   :   0 
+brvs  :   0 bset  :   1 bst   :   0 call  :   0 cbi   :   0 cbr   :   0 
 clc   :   0 clh   :   0 cli   :   0 cln   :   0 clr   :   0 cls   :   0 
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
-cpi   :   0 cpse  :   3 dec   :   0 eor   :   0 fmul  :   0 fmuls :   0 
+cpi   :   0 cpse  :   4 dec   :   0 eor   :   0 fmul  :   0 fmuls :   0 
 fmulsu:   0 icall :   0 ijmp  :   0 in    :   0 inc   :   1 jmp   :   3 
 ld    :   0 ldd   :   0 ldi   :   8 lds   :   0 lpm   :   0 lsl   :   0 
 lsr   :   0 mov   :   3 movw  :   0 mul   :   0 muls  :   0 mulsu :   0 
@@ -1103,12 +1108,12 @@ sbiw  :   0 sbr   :   0 sbrc  :   0 sbrs  :   0 sec   :   0 seh   :   0
 sei   :   0 sen   :   0 ser   :   0 ses   :   0 set   :   0 sev   :   0 
 sez   :   0 sleep :   0 spm   :   0 st    :   0 std   :   0 sts   :   0 
 sub   :   3 subi  :   0 swap  :   0 tst   :   0 wdr   :   0 
-Instructions used: 12 out of 113 (10.6%)
+Instructions used: 13 out of 113 (11.5%)
 
 "ATmega328P" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x000046     70      0     70   32768   0.2%
+[.cseg] 0x000000 0x00004a     74      0     74   32768   0.2%
 [.dseg] 0x000100 0x000100      0      0      0    2048   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    1024   0.0%
 
