@@ -1,0 +1,40 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Ejercicios tipo parcial\ej1_v2\ej1_v2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Ejercicios tipo parcial\ej1_v2\ej1_v2\ej1_v2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m2560def.inc</FILE>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\M2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Ejercicios tipo parcial\ej1_v2\ej1_v2\Debug/ej1_v2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ej1_v2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ej1_v2.map</FILE>
+  <FILE>ej1_v2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Vec1><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Ejercicios tipo parcial\ej1_v2\ej1_v2\ej1_v2.asm</FILE><LINE>17</LINE></Vec1>
+  <Vec2><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Ejercicios tipo parcial\ej1_v2\ej1_v2\ej1_v2.asm</FILE><LINE>18</LINE></Vec2>
+  <Main><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Ejercicios tipo parcial\ej1_v2\ej1_v2\ej1_v2.asm</FILE><LINE>22</LINE></Main>
+  <generar_tabla><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Ejercicios tipo parcial\ej1_v2\ej1_v2\ej1_v2.asm</FILE><LINE>37</LINE></generar_tabla>
+  <inicializar_z><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Ejercicios tipo parcial\ej1_v2\ej1_v2\ej1_v2.asm</FILE><LINE>42</LINE></inicializar_z>
+  <copiar_tabla><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Ejercicios tipo parcial\ej1_v2\ej1_v2\ej1_v2.asm</FILE><LINE>46</LINE></copiar_tabla>
+  <inicializar_x><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Ejercicios tipo parcial\ej1_v2\ej1_v2\ej1_v2.asm</FILE><LINE>53</LINE></inicializar_x>
+  <direccionar_registros><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Ejercicios tipo parcial\ej1_v2\ej1_v2\ej1_v2.asm</FILE><LINE>57</LINE></direccionar_registros>
+  <comparacion><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Ejercicios tipo parcial\ej1_v2\ej1_v2\ej1_v2.asm</FILE><LINE>61</LINE></comparacion>
+  <caso_si><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Ejercicios tipo parcial\ej1_v2\ej1_v2\ej1_v2.asm</FILE><LINE>67</LINE></caso_si>
+  <caso_no><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Ejercicios tipo parcial\ej1_v2\ej1_v2\ej1_v2.asm</FILE><LINE>74</LINE></caso_no>
+  <es_fin><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Ejercicios tipo parcial\ej1_v2\ej1_v2\ej1_v2.asm</FILE><LINE>85</LINE></es_fin>
+  <inicializar_contador><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Ejercicios tipo parcial\ej1_v2\ej1_v2\ej1_v2.asm</FILE><LINE>81</LINE></inicializar_contador>
+  <fin><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Ejercicios tipo parcial\ej1_v2\ej1_v2\ej1_v2.asm</FILE><LINE>91</LINE></fin>
+ </LABELS>
+</ASSEMBLER_INFO>

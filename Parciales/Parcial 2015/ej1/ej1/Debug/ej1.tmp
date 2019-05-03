@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Parcial 2015\ej1\ej1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Parcial 2015\ej1\ej1\ej1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m2560def.inc</FILE>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\M2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Parcial 2015\ej1\ej1\Debug/ej1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ej1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ej1.map</FILE>
+  <FILE>ej1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Parcial 2015\ej1\ej1\ej1.asm</FILE><LINE>12</LINE></main>
+  <fin_divisor_nulo><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Parcial 2015\ej1\ej1\ej1.asm</FILE><LINE>27</LINE></fin_divisor_nulo>
+  <fin_dividendo_nulo><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Parcial 2015\ej1\ej1\ej1.asm</FILE><LINE>25</LINE></fin_dividendo_nulo>
+  <division_ok><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Parcial 2015\ej1\ej1\ej1.asm</FILE><LINE>30</LINE></division_ok>
+  <fin><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Parcial 2015\ej1\ej1\ej1.asm</FILE><LINE>40</LINE></fin>
+  <fin_division_ok><FILE>C:\Users\Martin\Documents\Ingenieria Electronica\Laboratorio de Microprocesadores (86.07)\Parciales\Parcial 2015\ej1\ej1\ej1.asm</FILE><LINE>36</LINE></fin_division_ok>
+ </LABELS>
+</ASSEMBLER_INFO>
