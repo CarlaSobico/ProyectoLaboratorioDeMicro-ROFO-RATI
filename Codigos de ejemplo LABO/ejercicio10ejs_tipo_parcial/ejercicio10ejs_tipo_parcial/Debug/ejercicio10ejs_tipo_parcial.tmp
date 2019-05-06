@@ -1,0 +1,28 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\ejercicio10ejs_tipo_parcial\ejercicio10ejs_tipo_parcial\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\ejercicio10ejs_tipo_parcial\ejercicio10ejs_tipo_parcial\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\ejercicio10ejs_tipo_parcial\ejercicio10ejs_tipo_parcial\Debug\ejercicio10ejs_tipo_parcial.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ejercicio10ejs_tipo_parcial.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ejercicio10ejs_tipo_parcial.map</FILE>
+  <FILE>ejercicio10ejs_tipo_parcial.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RAND_8><FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\ejercicio10ejs_tipo_parcial\ejercicio10ejs_tipo_parcial\main.asm</FILE><LINE>30</LINE></RAND_8>
+  <FIN><FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\ejercicio10ejs_tipo_parcial\ejercicio10ejs_tipo_parcial\main.asm</FILE><LINE>38</LINE></FIN>
+ </LABELS>
+</ASSEMBLER_INFO>

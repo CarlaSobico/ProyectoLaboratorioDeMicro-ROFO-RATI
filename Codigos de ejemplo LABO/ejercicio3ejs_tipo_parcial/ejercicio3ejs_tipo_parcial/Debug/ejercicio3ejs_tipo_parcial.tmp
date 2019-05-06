@@ -1,0 +1,34 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\ejercicio3ejs_tipo_parcial\ejercicio3ejs_tipo_parcial\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\ejercicio3ejs_tipo_parcial\ejercicio3ejs_tipo_parcial\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\ejercicio3ejs_tipo_parcial\ejercicio3ejs_tipo_parcial\Debug\ejercicio3ejs_tipo_parcial.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ejercicio3ejs_tipo_parcial.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ejercicio3ejs_tipo_parcial.map</FILE>
+  <FILE>ejercicio3ejs_tipo_parcial.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\ejercicio3ejs_tipo_parcial\ejercicio3ejs_tipo_parcial\main.asm</FILE><LINE>32</LINE></MAIN>
+  <CONVERTER><FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\ejercicio3ejs_tipo_parcial\ejercicio3ejs_tipo_parcial\main.asm</FILE><LINE>42</LINE></CONVERTER>
+  <ERROR><FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\ejercicio3ejs_tipo_parcial\ejercicio3ejs_tipo_parcial\main.asm</FILE><LINE>37</LINE></ERROR>
+  <SUCC_END><FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\ejercicio3ejs_tipo_parcial\ejercicio3ejs_tipo_parcial\main.asm</FILE><LINE>38</LINE></SUCC_END>
+  <VALID_NUMBER><FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\ejercicio3ejs_tipo_parcial\ejercicio3ejs_tipo_parcial\main.asm</FILE><LINE>47</LINE></VALID_NUMBER>
+  <FACTORIZE><FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\ejercicio3ejs_tipo_parcial\ejercicio3ejs_tipo_parcial\main.asm</FILE><LINE>55</LINE></FACTORIZE>
+  <KEEP_GOING><FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\ejercicio3ejs_tipo_parcial\ejercicio3ejs_tipo_parcial\main.asm</FILE><LINE>57</LINE></KEEP_GOING>
+  <END_FACTORIZE><FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\ejercicio3ejs_tipo_parcial\ejercicio3ejs_tipo_parcial\main.asm</FILE><LINE>61</LINE></END_FACTORIZE>
+ </LABELS>
+</ASSEMBLER_INFO>

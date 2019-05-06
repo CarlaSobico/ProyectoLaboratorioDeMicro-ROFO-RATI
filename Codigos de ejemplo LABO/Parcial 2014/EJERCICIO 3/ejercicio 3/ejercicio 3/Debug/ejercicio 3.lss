@@ -1,0 +1,15 @@
+
+AVRASM ver. 2.2.7  C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 3\ejercicio 3\ejercicio 3\main.asm Sun May 05 23:58:15 2019
+
+[builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
+C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 3\ejercicio 3\ejercicio 3\main.asm(30): error: Code in DSEG
+C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 3\ejercicio 3\ejercicio 3\main.asm(31): error: Code in DSEG
+C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 3\ejercicio 3\ejercicio 3\main.asm(33): error: Code in DSEG
+C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 3\ejercicio 3\ejercicio 3\main.asm(34): error: Code in DSEG
+C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 3\ejercicio 3\ejercicio 3\main.asm(36): error: Code in DSEG
+C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 3\ejercicio 3\ejercicio 3\main.asm(37): error: Code in DSEG
+C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 3\ejercicio 3\ejercicio 3\main.asm(38): error: Code in DSEG
+C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 3\ejercicio 3\ejercicio 3\main.asm(39): error: Code in DSEG
+C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 3\ejercicio 3\ejercicio 3\main.asm(43): error: Code in DSEG
+C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 3\ejercicio 3\ejercicio 3\main.asm(46): error: FIND: Unknown instruction or macro
+C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 3\ejercicio 3\ejercicio 3\main.asm(46): error: Code in DSEG

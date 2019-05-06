@@ -1,0 +1,29 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 1\ejercicio1\ejercicio1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 1\ejercicio1\ejercicio1\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 1\ejercicio1\ejercicio1\Debug\ejercicio1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ejercicio1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ejercicio1.map</FILE>
+  <FILE>ejercicio1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 1\ejercicio1\ejercicio1\main.asm</FILE><LINE>39</LINE></MAIN>
+  <LOOP><FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 1\ejercicio1\ejercicio1\main.asm</FILE><LINE>51</LINE></LOOP>
+  <FILTRO><FILE>C:\Users\ivanl\Desktop\Labo\Codigos de ejemplo LABO\Parcial 2014\EJERCICIO 1\ejercicio1\ejercicio1\main.asm</FILE><LINE>57</LINE></FILTRO>
+ </LABELS>
+</ASSEMBLER_INFO>
