@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\Para entregar\ParcialEj3\ParcialEj3\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\Para entregar\ParcialEj3\ParcialEj3\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\Para entregar\ParcialEj3\ParcialEj3\Debug\ParcialEj3.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ParcialEj3.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ParcialEj3.map</FILE>
+  <FILE>ParcialEj3.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <mensaje><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\Para entregar\ParcialEj3\ParcialEj3\main.asm</FILE><LINE>22</LINE></mensaje>
+  <back><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\Para entregar\ParcialEj3\ParcialEj3\main.asm</FILE><LINE>32</LINE></back>
+  <contar_a><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\Para entregar\ParcialEj3\ParcialEj3\main.asm</FILE><LINE>41</LINE></contar_a>
+  <loop><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\Para entregar\ParcialEj3\ParcialEj3\main.asm</FILE><LINE>46</LINE></loop>
+  <fin_cadena><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\Para entregar\ParcialEj3\ParcialEj3\main.asm</FILE><LINE>55</LINE></fin_cadena>
+  <fin><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\Para entregar\ParcialEj3\ParcialEj3\main.asm</FILE><LINE>60</LINE></fin>
+  <mensajerom><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\Para entregar\ParcialEj3\ParcialEj3\main.asm</FILE><LINE>63</LINE></mensajerom>
+ </LABELS>
+</ASSEMBLER_INFO>

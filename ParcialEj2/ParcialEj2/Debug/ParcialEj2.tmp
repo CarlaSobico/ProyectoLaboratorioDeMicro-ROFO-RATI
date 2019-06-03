@@ -1,0 +1,28 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\Para entregar\ParcialEj2\ParcialEj2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\Para entregar\ParcialEj2\ParcialEj2\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\Para entregar\ParcialEj2\ParcialEj2\Debug\ParcialEj2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ParcialEj2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ParcialEj2.map</FILE>
+  <FILE>ParcialEj2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <BCD_ASCII><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\Para entregar\ParcialEj2\ParcialEj2\main.asm</FILE><LINE>21</LINE></BCD_ASCII>
+  <fin><FILE>C:\Users\carli\Desktop\Facultad\Laboratorio de microprocesadores\Practica en casa\Para entregar\ParcialEj2\ParcialEj2\main.asm</FILE><LINE>33</LINE></fin>
+ </LABELS>
+</ASSEMBLER_INFO>
